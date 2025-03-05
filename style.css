@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgba(41, 130, 189, 0.7);
+  color: #ecf0f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.stopwatch {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px 24px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px 5px black;
+  margin-bottom: 30px;
+}
+.stopwatch:hover {
+  box-shadow: 0px 2px 10px 10px black;
+}
+
+.timerDisplay {
+  font-size: 50px;
+  font-weight: 600;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 4px #eceaea;
+  }
+  to {
+    text-shadow: 0 0 4px #fff 0 0 6px #e7d8d8;
+  }
+}
+
+.btn .buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: #f5fafa;
+  background-color: var(--clr);
+  padding: 12px 24px;
+  margin-inline: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  font-size: 19px;
+}
+footer {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(63, 63, 117);
+  color: wheat;
+  margin-bottom: 0px;
+  bottom: 0px;
+  text-align: center;
+}
+
+.btnlinked {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(231, 60, 117);
+  font-size: large;
+  padding: 3px;
+}
+.btnlinked:hover {
+  font-size: large;
+  height: 37px;
+  width: 97px;
+}
+.btnlink {
+  color: white;
+  text-decoration: none;
+}
+.btn1:hover {
+  box-shadow: 0px 2px 10px 4px red;
+}
+.btn2:hover {
+  box-shadow: 0px 2px 10px 4px green;
+}
+.btn3:hover {
+  box-shadow: 0px 2px 10px 4px blue;
+}
