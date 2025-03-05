@@ -9,3 +9,4 @@ Reset: Clear the current time and start fresh.<br>
 Lap: Record lap times without stopping the main timer.<br>
 
 <h2>User Interface</h2>
+<img src="Capture.PNG">
